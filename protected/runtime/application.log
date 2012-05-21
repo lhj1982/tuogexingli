@@ -1,0 +1,466 @@
+2012/05/16 21:06:02 [error] [php] include(User.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii-1.1.10.r3566\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\tuogexingli\protected\components\UserIdentity.php(25): spl_autoload_call()
+#1 C:\wamp\www\yii\tuogexingli\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\wamp\www\yii-1.1.10.r3566\framework\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 C:\wamp\www\yii-1.1.10.r3566\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute()
+#4 C:\wamp\www\yii-1.1.10.r3566\framework\base\CModel.php(158): CInlineValidator->validate()
+#5 C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php(88): LoginForm->validate()
+#6 C:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#11 C:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 C:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/index.php?r=site/login
+in C:\wamp\www\yii\tuogexingli\protected\components\UserIdentity.php (25)
+in C:\wamp\www\yii\tuogexingli\protected\models\LoginForm.php (52)
+in C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php (88)
+2012/05/16 21:13:40 [error] [php] include(User.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii-1.1.10.r3566\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\tuogexingli\protected\components\UserIdentity.php(25): spl_autoload_call()
+#1 C:\wamp\www\yii\tuogexingli\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\wamp\www\yii-1.1.10.r3566\framework\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 C:\wamp\www\yii-1.1.10.r3566\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute()
+#4 C:\wamp\www\yii-1.1.10.r3566\framework\base\CModel.php(158): CInlineValidator->validate()
+#5 C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php(88): LoginForm->validate()
+#6 C:\wamp\www\yii-1.1.10.r3566\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\wamp\www\yii-1.1.10.r3566\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(276): SiteController->run()
+#11 C:\wamp\www\yii-1.1.10.r3566\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 C:\wamp\www\yii-1.1.10.r3566\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/index.php?r=site/login
+in C:\wamp\www\yii\tuogexingli\protected\components\UserIdentity.php (25)
+in C:\wamp\www\yii\tuogexingli\protected\models\LoginForm.php (52)
+in C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php (88)
+2012/05/19 09:06:55 [error] [php] include(User.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\tuogexingli\protected\components\UserIdentity.php(25): spl_autoload_call()
+#1 C:\wamp\www\yii\tuogexingli\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\wamp\www\yii\framework\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 C:\wamp\www\yii\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute()
+#4 C:\wamp\www\yii\framework\base\CModel.php(158): CInlineValidator->validate()
+#5 C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php(88): LoginForm->validate()
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#12 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/index.php?r=site/login
+in C:\wamp\www\yii\tuogexingli\protected\components\UserIdentity.php (25)
+in C:\wamp\www\yii\tuogexingli\protected\models\LoginForm.php (52)
+in C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php (88)
+2012/05/19 09:37:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "r=user".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('r=user')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/r=user
+---
+2012/05/19 10:24:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/admin
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/site/login
+---
+2012/05/19 10:25:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('admin')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/admin')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/admin
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/
+---
+2012/05/20 17:28:15 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.email" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\tuogexingli\protected\components\UserIdentity.php(25): CComponent->__get('email')
+#1 C:\wamp\www\yii\tuogexingli\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\wamp\www\yii\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#3 C:\wamp\www\yii\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\wamp\www\yii\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php(70): CModel->validate()
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#7 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('login')
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#17 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/login/
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/login/
+---
+2012/05/20 19:14:21 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (68)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/20 19:14:46 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (68)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/20 19:16:10 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (68)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/20 19:19:05 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (68)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/20 19:23:02 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2044): CComponent->__get('username')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1205): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(575): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 C:\wamp\www\yii\tuogexingli\protected\views\site\login.php(25): CActiveForm->textField(Object(LoginForm), 'username')
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php(92): CController->render('login', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#11 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('login')
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/login')
+#16 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/site/login
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php
+---
+2012/05/20 19:23:13 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (68)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/20 19:44:53 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (68)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/20 19:44:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/
+---
+2012/05/20 19:45:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php
+---
+2012/05/20 19:45:57 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:45:58 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/site/index
+---
+2012/05/20 19:46:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:46:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php:157
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\auth\CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('logout')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/logout')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/logout
+HTTP_REFERER=http://localhost/yii/tuogexingli/index.php/user/logout
+---
+2012/05/20 19:47:07 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (68)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/20 19:48:20 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (72)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/20 19:49:10 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (72)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
