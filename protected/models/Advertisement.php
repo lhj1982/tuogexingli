@@ -28,6 +28,12 @@
  */
 class Advertisement extends CActiveRecord
 {
+	const DRAFT = 'draft';
+	const ACTIVE = 'active';
+	const DELETED = 'deleted';
+	const CLOSED = 'closed';
+	const EXPIRED = 'expired';
+	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -134,5 +140,18 @@ class Advertisement extends CActiveRecord
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
+	}
+	
+	/**
+	 * Find all valid advertisment to show.
+	 * 
+	 * @see CActiveRecord::findAll()
+	 */
+	public function findAllValidToShow() {
+		return Yii::app()->db->createCommand()
+		->from("advertisement")
+		->where("status=:status", array(':status'=>self::ACTIVE))
+		->order("created DESC")
+		->queryAll();
 	}
 }

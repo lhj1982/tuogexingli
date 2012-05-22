@@ -464,3 +464,441 @@ in C:\wamp\www\yii\tuogexingli\index.php (13)
 2012/05/20 19:49:10 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
 in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (72)
 in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/21 11:43:28 [error] [exception.CException] exception 'CException' with message 'Alias "user.UserModule" is invalid. Make sure it points to an existing PHP file.' in C:\wamp\www\yii\framework\YiiBase.php:318
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): YiiBase::import('user.UserModule', true)
+#1 C:\wamp\www\yii\framework\base\CModule.php(283): YiiBase::createComponent('user.UserModule', 'user', NULL, Array)
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(331): CModule->getModule('user')
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(270): CWebApplication->createController('user/login')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/tuogexingli/index.php/user/login
+---
+2012/05/21 11:44:39 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (72)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/21 11:46:20 [error] [php] Undefined variable: model (C:\wamp\www\yii\tuogexingli\protected\views\user\login.php:23)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php(33): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/index.php
+in C:\wamp\www\yii\tuogexingli\protected\views\user\login.php (23)
+in C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php (33)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/21 11:46:25 [error] [php] Undefined variable: model (C:\wamp\www\yii\tuogexingli\protected\views\user\login.php:23)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php(33): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/index.php
+in C:\wamp\www\yii\tuogexingli\protected\views\user\login.php (23)
+in C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php (33)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/21 11:47:01 [error] [php] Undefined variable: model (C:\wamp\www\yii\tuogexingli\protected\views\user\login.php:28)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php(33): SiteController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/index.php
+in C:\wamp\www\yii\tuogexingli\protected\views\user\login.php (28)
+in C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php (33)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/21 11:48:24 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\yii\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\yii\tuogexingli\protected\controllers\SiteController.php(35): CController->render('login', Array)
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/tuogexingli/index.php
+---
+2012/05/21 11:51:55 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (72)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/21 11:52:25 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (72)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/21 11:55:19 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (72)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/21 12:03:13 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (72)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/21 12:04:13 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (72)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/22 07:44:26 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (72)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/22 08:47:27 [error] [exception.CException] exception 'CException' with message 'Property "BulletinController.model" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\tuogexingli\protected\views\bulletin\list.php(7): CComponent->__get('model')
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#3 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#4 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('list', Array, true)
+#5 C:\wamp\www\yii\tuogexingli\protected\controllers\BulletinController.php(12): CController->render('list', Array)
+#6 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): BulletinController->actionList()
+#7 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('list')
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('bulletin/list')
+#12 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii/tuogexingli/bulletin/list
+---
+2012/05/22 08:55:11 [error] [exception.CDbException] exception 'CDbException' with message 'The DB query must contain the "from" portion.' in C:\wamp\www\yii\framework\db\CDbCommand.php:550
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(161): CDbCommand->buildQuery(Array)
+#1 C:\wamp\www\yii\framework\db\CDbCommand.php(473): CDbCommand->getText()
+#2 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#3 C:\wamp\www\yii\tuogexingli\protected\models\Advertisement.php(154): CDbCommand->queryAll()
+#4 C:\wamp\www\yii\tuogexingli\protected\controllers\BulletinController.php(12): Advertisement->findAllValidToShow()
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): BulletinController->actionList()
+#6 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('list')
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('bulletin/list')
+#11 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:47:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:47:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:47:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:47:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:47:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:53:25 [error] [php] Undefined variable: config (C:\wamp\www\yii\tuogexingli\protected\views\layouts\main.php:27)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(77): BulletinController->renderFile()
+#1 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate()
+#2 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(207): CContentDecorator->run()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(301): BulletinController->endWidget()
+#5 C:\wamp\www\yii\tuogexingli\protected\views\layouts\column1.php(5): BulletinController->endContent()
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(127): require()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(96): BulletinController->renderInternal()
+#8 C:\wamp\www\yii\framework\web\CController.php(785): BulletinController->renderFile()
+#9 C:\wamp\www\yii\tuogexingli\protected\controllers\BulletinController.php(12): BulletinController->render()
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): BulletinController->actionList()
+#11 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\wamp\www\yii\framework\web\CController.php(287): BulletinController->runAction()
+#13 C:\wamp\www\yii\framework\web\CController.php(266): BulletinController->runActionWithFilters()
+#14 C:\wamp\www\yii\framework\web\CWebApplication.php(276): BulletinController->run()
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#16 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/bulletin/list
+in C:\wamp\www\yii\tuogexingli\protected\views\layouts\main.php (27)
+in C:\wamp\www\yii\tuogexingli\protected\views\layouts\column1.php (5)
+in C:\wamp\www\yii\tuogexingli\protected\controllers\BulletinController.php (12)
+2012/05/22 11:54:08 [error] [exception.CException] exception 'CException' with message 'Property "BulletinController.flashmsgs" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\tuogexingli\protected\views\layouts\main.php(96): CComponent->__get('flashmsgs')
+#1 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#3 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#5 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#8 C:\wamp\www\yii\tuogexingli\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#9 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#11 C:\wamp\www\yii\framework\web\CController.php(785): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#12 C:\wamp\www\yii\tuogexingli\protected\controllers\BulletinController.php(12): CController->render('list', Array)
+#13 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): BulletinController->actionList()
+#14 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#15 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#16 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('list')
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('bulletin/list')
+#19 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/facebookIcon.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/facebookIco...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/facebookIcon.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/sinaIcon.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/sinaIcon.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/sinaIcon.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/explain1.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/explain1.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/explain1.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/contentFrame.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/contentFram...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/contentFrame.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/explainArrow.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/explainArro...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/explainArrow.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/explain2.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/explain2.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/explain2.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/btnCreatePost.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/btnCreatePo...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/btnCreatePost.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/explainArrow.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/explainArro...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/explainArrow.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/facebookIcon.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/facebookIco...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/facebookIcon.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/explain1.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/explain1.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/explain1.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/explain2.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/explain2.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/explain2.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/sinaIcon.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/sinaIcon.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/sinaIcon.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/contentFrame.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/contentFram...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/contentFrame.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/btnCreatePost.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/btnCreatePo...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/btnCreatePost.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:55:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logoHome.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logoHome.pn...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logoHome.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:55:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('img/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/img/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:55:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imag/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('imag/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/imag/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:55:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imag/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('imag/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/imag/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
+2012/05/22 11:55:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/logo.png".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('image/logo.png')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/tuogexingli/image/logo.png
+HTTP_REFERER=http://localhost/yii/tuogexingli/bulletin/list
+---
