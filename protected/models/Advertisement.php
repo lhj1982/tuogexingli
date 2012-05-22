@@ -149,9 +149,21 @@ class Advertisement extends CActiveRecord
 	 */
 	public function findAllValidToShow() {
 		return Yii::app()->db->createCommand()
+		->select(array("advertisement.*","user.name as username"))
 		->from("advertisement")
-		->where("status=:status", array(':status'=>self::ACTIVE))
-		->order("created DESC")
+		->join("user", "user.id=advertisement.user_id")
+		->where("advertisement.status=:status", array(':status'=>self::ACTIVE))
+		->order("advertisement.created DESC")
 		->queryAll();
+	}
+	
+	/**
+	 * Find advertisement by id, bring together information of fromCity and toCity.
+	 * 
+	 * @param $advertisementId
+	 * @return advertisement obj
+	 */
+	public function findById($advertisementId) {
+		return Advertisement::model()->with('fromCity', 'toCity')->findByPk($advertisementId);
 	}
 }

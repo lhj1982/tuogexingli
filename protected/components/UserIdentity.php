@@ -22,8 +22,8 @@ class UserIdentity extends CUserIdentity
 			'demo'=>'demo',
 			'admin'=>'admin',
 		);
-		$user = User::model()->find('email=:email', array(':email'=>$this->username));
-		if(!isset($user))
+		$user = User::model()->login($this->username, $this->password);
+		if(empty($user))
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
 		else
 			$this->errorCode=self::ERROR_NONE;

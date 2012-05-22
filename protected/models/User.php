@@ -139,4 +139,18 @@ class User extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
+	/**
+	 * Search user by given email and password.
+	 * 
+	 * @param $email
+	 * @param $password
+	 * @return user object if find hits, otherwise, return null
+	 */
+	public function login($email, $password) {
+		return Yii::app()->db->createCommand()
+		->from('user')
+		->where('email=:email AND password=:password', array(':email'=>$email,':password'=>md5($password)))
+		->queryRow();
+	}
 }
