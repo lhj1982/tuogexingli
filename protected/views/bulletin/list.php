@@ -2,7 +2,9 @@
 $this->breadcrumbs=array(
 	'Bulletin'=>array('/bulletin'),
 	'List',
-);?>
+);
+print_r(SessionUtil::getProperty(SessionUtil::USER));
+?>
 
 <div style="width:910px;float:left;clear:both;">
 <div class="dashline"></div>

@@ -23,10 +23,12 @@ class UserIdentity extends CUserIdentity
 			'admin'=>'admin',
 		);
 		$user = User::model()->login($this->username, $this->password);
-		if(empty($user))
+		if(empty($user)) {
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
-		else
+		} else {
+			SessionUtil::setProperty(SessionUtil::USER, $user);
 			$this->errorCode=self::ERROR_NONE;
+		}
 		return !$this->errorCode;
 	}
 }

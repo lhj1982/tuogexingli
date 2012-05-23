@@ -1334,3 +1334,317 @@ Stack trace:
 REQUEST_URI=/yii/tuogexingli/bulletin/list
 HTTP_REFERER=http://localhost/yii/tuogexingli/user/login
 ---
+2012/05/22 19:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 19:56:17 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (72)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 19:56:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'test111'' in /home/james/projects/yii_projects/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /home/james/projects/yii_projects/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /home/james/projects/yii_projects/framework/base/CModule.php(388): CDbConnection->init()
+#3 /home/james/projects/yii_projects/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /home/james/projects/yii_projects/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /home/james/projects/yii_projects/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /home/james/projects/yii_projects/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(User))
+#7 /home/james/projects/yii_projects/tuogexingli/protected/models/User.php(39): CActiveRecord::model('User')
+#8 /home/james/projects/yii_projects/tuogexingli/protected/components/UserIdentity.php(25): User::model()
+#9 /home/james/projects/yii_projects/tuogexingli/protected/models/LoginForm.php(53): UserIdentity->authenticate()
+#10 /home/james/projects/yii_projects/framework/validators/CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#11 /home/james/projects/yii_projects/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#12 /home/james/projects/yii_projects/framework/base/CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#13 /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php(75): CModel->validate()
+#14 /home/james/projects/yii_projects/framework/web/actions/CInlineAction.php(50): UserController->actionLogin()
+#15 /home/james/projects/yii_projects/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /home/james/projects/yii_projects/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 /home/james/projects/yii_projects/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#18 /home/james/projects/yii_projects/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 /home/james/projects/yii_projects/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 /home/james/projects/yii_projects/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 /home/james/projects/yii_projects/framework/web/CController.php(292): CFilterChain->run()
+#22 /home/james/projects/yii_projects/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 /home/james/projects/yii_projects/framework/web/CWebApplication.php(276): CController->run('login')
+#24 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('user/login')
+#25 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#26 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/user/login
+HTTP_REFERER=http://yii_tuogexingli.localhost/user/login
+---
+2012/05/22 19:56:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 19:56:56 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (72)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 19:56:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 19:57:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 19:57:10 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (72)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 19:57:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 19:57:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 19:57:35 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (72)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 19:57:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 19:57:41 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (72)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 19:57:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 19:59:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 19:59:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:01:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:02:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:06:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:07:17 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (72)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 20:07:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:09:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:10:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:10:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:10:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 20:10:26 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (72)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 20:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 21:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 21:30:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 21:30:12 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (79)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 21:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 21:30:24 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (79)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 21:30:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 21:31:01 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (79)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 21:31:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 21:31:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 21:31:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 21:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 21:31:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/22 21:32:19 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (79)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/22 21:32:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

@@ -53,6 +53,13 @@ class UserController extends Controller
 	}
 	
 	/**
+	 * User recommend friend.
+	 */
+	public function actionRecommend() {
+	
+	}
+	
+	/**
 	 * User Login.
 	 */
 	public function actionLogin()
@@ -73,7 +80,7 @@ class UserController extends Controller
 			// validate user input and redirect to the previous page if valid
 			
 			if($model->validate() && $model->login()) {
-				$this->redirect(Yii::app()->request->baseUrl);
+				$this->redirect(Yii::app()->request->getBaseUrl(true));
 			}
 		}
 		// display the login form
@@ -86,6 +93,7 @@ class UserController extends Controller
 	public function actionLogout()
 	{
 		Yii::app()->user->logout();
+		SessionUtil::setProperty(SessionUtil::USER, null);
 		$this->redirect(Yii::app()->homeUrl);
 	}
 
