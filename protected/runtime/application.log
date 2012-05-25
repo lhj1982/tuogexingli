@@ -1648,3 +1648,306 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2012/05/24 19:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 19:30:39 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (79)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/24 19:30:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:19:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:19:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:20:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:34:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /home/james/projects/yii_projects/framework/web/auth/CAccessControlFilter.php:157
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /home/james/projects/yii_projects/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /home/james/projects/yii_projects/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 /home/james/projects/yii_projects/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /home/james/projects/yii_projects/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /home/james/projects/yii_projects/framework/web/CController.php(292): CFilterChain->run()
+#6 /home/james/projects/yii_projects/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/james/projects/yii_projects/framework/web/CWebApplication.php(276): CController->run('recommend')
+#8 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('user/recommend')
+#9 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/user/recommend
+---
+2012/05/24 20:34:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:41:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:44:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:44:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:46:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:46:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:46:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:47:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:48:05 [error] [php] include(UserRecommend.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/james/projects/yii_projects/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php(62): spl_autoload_call()
+#1 /home/james/projects/yii_projects/framework/web/actions/CInlineAction.php(50): UserController->actionRecommend()
+#2 /home/james/projects/yii_projects/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/james/projects/yii_projects/framework/web/CController.php(287): UserController->runAction()
+#4 /home/james/projects/yii_projects/framework/web/CController.php(266): UserController->runActionWithFilters()
+#5 /home/james/projects/yii_projects/framework/web/CWebApplication.php(276): UserController->run()
+#6 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/james/projects/yii_projects/tuogexingli/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/recommend
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (62)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/24 20:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:49:56 [error] [exception.CException] exception 'CException' with message 'Alias "application.models.UserRecommendationForm" is invalid. Make sure it points to an existing PHP file.' in /home/james/projects/yii_projects/framework/YiiBase.php:318
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/gii/generators/form/FormCode.php(58): YiiBase::import('application.mod...', true)
+#1 /home/james/projects/yii_projects/framework/validators/CInlineValidator.php(43): FormCode->validateModel('model', Array)
+#2 /home/james/projects/yii_projects/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute(Object(FormCode), 'model')
+#3 /home/james/projects/yii_projects/framework/base/CModel.php(158): CValidator->validate(Object(FormCode), NULL)
+#4 /home/james/projects/yii_projects/framework/gii/CCodeGenerator.php(158): CModel->validate()
+#5 /home/james/projects/yii_projects/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#6 /home/james/projects/yii_projects/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#7 /home/james/projects/yii_projects/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /home/james/projects/yii_projects/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /home/james/projects/yii_projects/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/james/projects/yii_projects/framework/web/CWebApplication.php(276): CController->run('')
+#11 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/form')
+#12 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/gii/form
+HTTP_REFERER=http://yii_tuogexingli.localhost/gii/form
+---
+2012/05/24 20:49:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:50:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:50:24 [error] [exception.CException] exception 'CException' with message 'Alias "application.models.UserRecommendationForm" is invalid. Make sure it points to an existing PHP file.' in /home/james/projects/yii_projects/framework/YiiBase.php:318
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/gii/generators/form/FormCode.php(58): YiiBase::import('application.mod...', true)
+#1 /home/james/projects/yii_projects/framework/validators/CInlineValidator.php(43): FormCode->validateModel('model', Array)
+#2 /home/james/projects/yii_projects/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute(Object(FormCode), 'model')
+#3 /home/james/projects/yii_projects/framework/base/CModel.php(158): CValidator->validate(Object(FormCode), NULL)
+#4 /home/james/projects/yii_projects/framework/gii/CCodeGenerator.php(158): CModel->validate()
+#5 /home/james/projects/yii_projects/framework/gii/CCodeGenerator.php(64): CCodeGenerator->prepare()
+#6 /home/james/projects/yii_projects/framework/web/actions/CInlineAction.php(50): CCodeGenerator->actionIndex()
+#7 /home/james/projects/yii_projects/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /home/james/projects/yii_projects/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /home/james/projects/yii_projects/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/james/projects/yii_projects/framework/web/CWebApplication.php(276): CController->run('')
+#11 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('gii/form')
+#12 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/gii/form
+HTTP_REFERER=http://yii_tuogexingli.localhost/gii/form
+---
+2012/05/24 20:50:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:50:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:53:40 [error] [php] include(UserRecommend.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/home/james/projects/yii_projects/framework/YiiBase.php:418)
+Stack trace:
+#0 /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php(62): spl_autoload_call()
+#1 /home/james/projects/yii_projects/framework/web/actions/CInlineAction.php(50): UserController->actionRecommend()
+#2 /home/james/projects/yii_projects/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/james/projects/yii_projects/framework/web/CController.php(287): UserController->runAction()
+#4 /home/james/projects/yii_projects/framework/web/CController.php(266): UserController->runActionWithFilters()
+#5 /home/james/projects/yii_projects/framework/web/CWebApplication.php(276): UserController->run()
+#6 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController()
+#7 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /home/james/projects/yii_projects/tuogexingli/index.php(13): CWebApplication->run()
+REQUEST_URI=/user/recommend
+in /home/james/projects/yii_projects/tuogexingli/protected/controllers/UserController.php (62)
+in /home/james/projects/yii_projects/tuogexingli/index.php (13)
+2012/05/24 20:53:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 20:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2012/05/24 21:19:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/james/projects/yii_projects/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/james/projects/yii_projects/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/james/projects/yii_projects/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/james/projects/yii_projects/tuogexingli/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

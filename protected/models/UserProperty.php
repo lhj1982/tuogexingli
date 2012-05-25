@@ -1,29 +1,21 @@
 <?php
 
 /**
- * This is the model class for table "user_recommendation".
+ * This is the model class for table "user_property".
  *
- * The followings are the available columns in table 'user_recommendation':
- * @property integer $from_user
- * @property integer $to_user
- * @property string $key
- * @property string $status
- * @property string $created
+ * The followings are the available columns in table 'user_property':
+ * @property integer $user_id
+ * @property integer $credit
  *
  * The followings are the available model relations:
- * @property User $toUser
- * @property User $fromUser
+ * @property User $user
  */
-class UserRecommendation extends CActiveRecord
+class UserProperty extends CActiveRecord
 {
-	const STATUS_PENDING = 'pending';
-	const STATUS_ACCEPTED = 'accepted';
-	const STATUS_DECLINED = 'declined';
-	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return UserRecommendation the static model class
+	 * @return UserProperty the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -35,7 +27,7 @@ class UserRecommendation extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'user_recommendation';
+		return 'user_property';
 	}
 
 	/**
@@ -46,15 +38,11 @@ class UserRecommendation extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('from_user, to_user, key', 'required'),
-			array('from_user, to_user', 'numerical', 'integerOnly'=>true),
-			array('key', 'length', 'max'=>45),
-			array('status', 'length', 'max'=>11),
-			array('direct_rec', 'boolean'),
-			array('created', 'safe'),
+			array('user_id', 'required'),
+			array('user_id, credit', 'numerical', 'integerOnly'=>true),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('from_user, to_user, key, status, created', 'safe', 'on'=>'search'),
+			array('user_id, credit', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -66,8 +54,7 @@ class UserRecommendation extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'toUser' => array(self::BELONGS_TO, 'User', 'to_user'),
-			'fromUser' => array(self::BELONGS_TO, 'User', 'from_user'),
+			'user' => array(self::BELONGS_TO, 'User', 'user_id'),
 		);
 	}
 
@@ -77,11 +64,8 @@ class UserRecommendation extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'from_user' => 'From User',
-			'to_user' => 'To User',
-			'key' => 'Key',
-			'status' => 'Status',
-			'created' => 'Created',
+			'user_id' => 'User',
+			'credit' => 'Credit',
 		);
 	}
 
@@ -96,11 +80,8 @@ class UserRecommendation extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('from_user',$this->from_user);
-		$criteria->compare('to_user',$this->to_user);
-		$criteria->compare('key',$this->key,true);
-		$criteria->compare('status',$this->status,true);
-		$criteria->compare('created',$this->created,true);
+		$criteria->compare('user_id',$this->user_id);
+		$criteria->compare('credit',$this->credit);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

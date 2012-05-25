@@ -11,18 +11,20 @@ class UserController extends Controller
 	/**
 	 * @return array action filters
 	 */
+	/*
 	public function filters()
 	{
 		return array(
 			'accessControl', // perform access control for CRUD operations
 		);
-	}
+	}*/
 
 	/**
 	 * Specifies the access control rules.
 	 * This method is used by the 'accessControl' filter.
 	 * @return array access control rules
 	 */
+	/*
 	public function accessRules()
 	{
 		return array(
@@ -51,12 +53,19 @@ class UserController extends Controller
 			),
 		);
 	}
+	*/
 	
 	/**
 	 * User recommend friend.
 	 */
 	public function actionRecommend() {
-	
+		if (Yii::app()->user->isGuest) {
+			$this->redirect(Yii::app()->getBaseUrl(true)."/user/login?next=".urlencode(Generator::getCurrentURI()));
+		} else {
+			$user = SessionUtil::getProperty(SessionUtil::USER);
+			$model = new UserRecommendation;
+			$this->render('recommend',array('model'=>$model, 'user'=>$user, 'next'=>Yii::app()->request->getQuery("next")));
+		}
 	}
 	
 	/**
