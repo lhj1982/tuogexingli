@@ -1648,3 +1648,360 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2012/05/23 07:56:03 [warning] [application] Failed to set unsafe attribute "returnUrl" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (79)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 10:46:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('login')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/tuogexingli/user/login
+---
+2012/05/23 10:47:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('login')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/tuogexingli/user/login
+---
+2012/05/23 10:48:11 [error] [php] Undefined index: returnUrl (C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php:69)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): UserController->filterAccessControl()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): UserController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): UserController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/user/login
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (69)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 10:48:27 [error] [php] Undefined index: b (C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php:69)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): UserController->filterAccessControl()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): UserController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): UserController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/user/login
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (69)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 10:51:16 [error] [php] Undefined variable: returnUrl (C:\wamp\www\yii\tuogexingli\protected\views\user\login.php:23)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): UserController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): UserController->renderPartial()
+#2 C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php(90): UserController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): UserController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(266): UserController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): UserController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/user/login
+in C:\wamp\www\yii\tuogexingli\protected\views\user\login.php (23)
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (90)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 10:51:18 [error] [php] Undefined variable: returnUrl (C:\wamp\www\yii\tuogexingli\protected\views\user\login.php:23)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(870): UserController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(783): UserController->renderPartial()
+#2 C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php(90): UserController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): UserController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(266): UserController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(276): UserController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/user/login?next=http%3A%2F%2Flocalhost%2Fyii%2Ftuogexingli%2Fbulletin%2Flist
+in C:\wamp\www\yii\tuogexingli\protected\views\user\login.php (23)
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (90)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 10:54:22 [warning] [application] Failed to set unsafe attribute "next" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (82)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 12:56:10 [error] [system.db.CDbCommand] Error in preparing SQL: DELETE FROM YiiSession WHERE expire<1337777770
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 12:56:10 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: YiiSession. The SQL statement executed was: DELETE FROM YiiSession WHERE expire<1337777770.
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 12:56:30 [warning] [application] Failed to set unsafe attribute "next" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (82)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 13:39:03 [warning] [application] Failed to set unsafe attribute "next" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (82)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 13:41:30 [warning] [application] Failed to set unsafe attribute "next" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (82)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 13:45:09 [warning] [application] Failed to set unsafe attribute "next" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (82)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 13:45:57 [warning] [application] Failed to set unsafe attribute "next" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (82)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 13:47:04 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.next" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2044): CComponent->__get('next')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(LoginForm), 'next')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1219): CHtml::activeInputField('hidden', Object(LoginForm), 'next', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(590): CHtml::activeHiddenField(Object(LoginForm), 'next', Array)
+#4 C:\wamp\www\yii\tuogexingli\protected\views\user\login.php(23): CActiveForm->hiddenField(Object(LoginForm), 'next', Array)
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php(89): CController->render('login', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#11 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#18 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('login')
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#21 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/yii/tuogexingli/user/login
+---
+2012/05/23 13:47:06 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.next" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2044): CComponent->__get('next')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(LoginForm), 'next')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1219): CHtml::activeInputField('hidden', Object(LoginForm), 'next', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(590): CHtml::activeHiddenField(Object(LoginForm), 'next', Array)
+#4 C:\wamp\www\yii\tuogexingli\protected\views\user\login.php(23): CActiveForm->hiddenField(Object(LoginForm), 'next', Array)
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php(89): CController->render('login', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#11 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#18 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('login')
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#21 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/yii/tuogexingli/user/login
+---
+2012/05/23 13:47:22 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.next" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2044): CComponent->__get('next')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(LoginForm), 'next')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1219): CHtml::activeInputField('hidden', Object(LoginForm), 'next', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(590): CHtml::activeHiddenField(Object(LoginForm), 'next', Array)
+#4 C:\wamp\www\yii\tuogexingli\protected\views\user\login.php(23): CActiveForm->hiddenField(Object(LoginForm), 'next', Array)
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php(89): CController->render('login', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#11 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#18 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('login')
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#21 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/yii/tuogexingli/user/login
+---
+2012/05/23 13:47:59 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.next" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2044): CComponent->__get('next')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1774): CHtml::resolveValue(Object(LoginForm), 'next')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1219): CHtml::activeInputField('hidden', Object(LoginForm), 'next', Array)
+#3 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(590): CHtml::activeHiddenField(Object(LoginForm), 'next', Array)
+#4 C:\wamp\www\yii\tuogexingli\protected\views\user\login.php(23): CActiveForm->hiddenField(Object(LoginForm), 'next', Array)
+#5 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#7 C:\wamp\www\yii\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(783): CController->renderPartial('login', Array, true)
+#9 C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php(89): CController->render('login', Array)
+#10 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#11 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#18 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('login')
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#21 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/yii/tuogexingli/user/login
+---
+2012/05/23 13:49:48 [error] [php] Undefined index: next (C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php:85)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): UserController->filterAccessControl()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): UserController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): UserController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yii\tuogexingli\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/tuogexingli/user/login
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (85)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 20:05:30 [warning] [application] Failed to set unsafe attribute "next" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (82)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 20:05:34 [warning] [application] Failed to set unsafe attribute "next" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (82)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 20:18:52 [warning] [application] Failed to set unsafe attribute "next" of "LoginForm".
+in C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php (82)
+in C:\wamp\www\yii\tuogexingli\index.php (13)
+2012/05/23 20:57:42 [error] [exception.CException] exception 'CException' with message 'Object configuration must be an array containing a "class" element.' in C:\wamp\www\yii\framework\YiiBase.php:195
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#1 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('params')
+#2 C:\wamp\www\yii\tuogexingli\protected\components\UserIdentity.php(29): CModule->__get('params')
+#3 C:\wamp\www\yii\tuogexingli\protected\models\LoginForm.php(53): UserIdentity->authenticate()
+#4 C:\wamp\www\yii\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#5 C:\wamp\www\yii\framework\validators\CValidator.php(197): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 C:\wamp\www\yii\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#7 C:\wamp\www\yii\tuogexingli\protected\controllers\UserController.php(84): CModel->validate()
+#8 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): UserController->actionLogin()
+#9 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#11 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#12 C:\wamp\www\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#16 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('login')
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('user/login')
+#19 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#20 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii/tuogexingli/user/login
+HTTP_REFERER=http://localhost/yii/tuogexingli/user/login
+---
+2012/05/23 21:00:53 [error] [exception.CException] exception 'CException' with message 'Object configuration must be an array containing a "class" element.' in C:\wamp\www\yii\framework\YiiBase.php:195
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#1 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('params')
+#2 C:\wamp\www\yii\tuogexingli\protected\views\layouts\main.php(26): CModule->__get('params')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#6 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#9 C:\wamp\www\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#10 C:\wamp\www\yii\tuogexingli\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(785): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#14 C:\wamp\www\yii\tuogexingli\protected\controllers\BulletinController.php(18): CController->render('list', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): BulletinController->actionList()
+#16 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('list')
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('bulletin/list')
+#21 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/yii/tuogexingli/bulletin/list
+HTTP_REFERER=http://localhost/yii/tuogexingli/user/login
+---
+2012/05/23 21:00:55 [error] [exception.CException] exception 'CException' with message 'Object configuration must be an array containing a "class" element.' in C:\wamp\www\yii\framework\YiiBase.php:195
+Stack trace:
+#0 C:\wamp\www\yii\framework\base\CModule.php(387): YiiBase::createComponent(Array)
+#1 C:\wamp\www\yii\framework\base\CModule.php(104): CModule->getComponent('params')
+#2 C:\wamp\www\yii\tuogexingli\protected\views\layouts\main.php(26): CModule->__get('params')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#6 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#9 C:\wamp\www\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#10 C:\wamp\www\yii\tuogexingli\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#12 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(785): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#14 C:\wamp\www\yii\tuogexingli\protected\controllers\BulletinController.php(18): CController->render('list', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): BulletinController->actionList()
+#16 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('list')
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('bulletin/list')
+#21 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\wamp\www\yii\tuogexingli\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/yii/tuogexingli/bulletin/list
+HTTP_REFERER=http://localhost/yii/tuogexingli/user/login
+---

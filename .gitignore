@@ -1,3 +1,5 @@
 #.htaccess
 .buildpath
 .project
+.git
+.settings

@@ -21,7 +21,6 @@
   })();
 
 </script>
-</head>
 
 <body>
 <div id="baseUrl"><?php echo Yii::app()->request->baseUrl;?></div>

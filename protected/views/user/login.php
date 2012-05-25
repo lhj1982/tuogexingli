@@ -19,8 +19,10 @@ $this->breadcrumbs=array(
 	),
 )); ?>
 
-	<?php 
-	echo $form->hiddenField($model,'returnUrl',array('value'=>Yii::app()->request->getBaseUrl(true)));
+	<?php
+	if (!empty($next)) { 
+		echo $form->hiddenField($model,'next',array('value'=>$next));
+	}
 	?>
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 

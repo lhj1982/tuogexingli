@@ -11,7 +11,7 @@ class SessionUtil {
 	const NAME = "myData";
 	const USER = "user";
 	// expire in 30min
-	const EXPIRE_IN_SEC = 1800;
+	const EXPIRE_IN_SEC = 5;
 	
 	/**
 	 * Get property value from session by given key.
@@ -20,10 +20,7 @@ class SessionUtil {
 	 * @return return value of key
 	 */
 	public static function getProperty($key) {
-		$session=new CHttpSession;
-		$session->setTimeout(self::EXPIRE_IN_SEC);
-  		$session->open();
-  		return $session[$key];
+		return Yii::app()->session[$key];
 	}
 	
 	/**
@@ -33,10 +30,7 @@ class SessionUtil {
 	 * @param $value
 	 */
 	public static function setProperty($key, $value) {
-		$session=new CHttpSession;
-		$session->setTimeout(self::EXPIRE_IN_SEC);
-  		$session->open();
-  		$session[$key] = $value;
+		Yii::app()->session[$key] = $value;
   		//$session->close();
 	}
 }

@@ -2,6 +2,7 @@
 
 class BulletinController extends Controller
 {
+
 	public function actionCreate()
 	{
 		$this->render('create');
@@ -9,7 +10,13 @@ class BulletinController extends Controller
 
 	public function actionList()
 	{
-		$this->render('list', array('model'=>Advertisement::model()->findAllValidToShow()));
+		$sessionUser = SessionUtil::getProperty(SessionUtil::USER);
+		//if (empty($sessionUser)) {
+		if (Yii::app()->user->isGuest) {
+			$this->redirect(Yii::app()->getBaseUrl(true)."/user/login?next=".urlencode(Generator::getCurrentURI()));
+		} else {
+			$this->render('list', array('model'=>Advertisement::model()->findAllValidToShow()));
+		}
 	}
 
 	public function actionView()
@@ -21,26 +28,26 @@ class BulletinController extends Controller
 	/*
 	public function filters()
 	{
-		// return the filter configuration for this controller, e.g.:
-		return array(
-			'inlineFilterName',
-			array(
-				'class'=>'path.to.FilterClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
+	// return the filter configuration for this controller, e.g.:
+	return array(
+	'inlineFilterName',
+	array(
+	'class'=>'path.to.FilterClass',
+	'propertyName'=>'propertyValue',
+	),
+	);
 	}
 
 	public function actions()
 	{
-		// return external action classes, e.g.:
-		return array(
-			'action1'=>'path.to.ActionClass',
-			'action2'=>array(
-				'class'=>'path.to.AnotherActionClass',
-				'propertyName'=>'propertyValue',
-			),
-		);
+	// return external action classes, e.g.:
+	return array(
+	'action1'=>'path.to.ActionClass',
+	'action2'=>array(
+	'class'=>'path.to.AnotherActionClass',
+	'propertyName'=>'propertyValue',
+	),
+	);
 	}
 	*/
 }

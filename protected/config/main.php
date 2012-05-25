@@ -30,6 +30,12 @@ return array(
 
 	// application components
 	'components'=>array(
+		'params' => require(dirname(__FILE__).'/params.php'),
+		'session' => array(
+			'class' => 'CHttpSession',
+			'timeout' => 5,
+			'autoStart' => false
+		),
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,

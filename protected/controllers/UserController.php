@@ -61,9 +61,12 @@ class UserController extends Controller
 	
 	/**
 	 * User Login.
+	 * 
+	 * @param $returnUrl return url
 	 */
 	public function actionLogin()
 	{
+		$returnUrl = Yii::app()->request->getQuery('next');
 		$model=new LoginForm;
 
 		// if it is ajax validation request
@@ -78,13 +81,16 @@ class UserController extends Controller
 		{
 			$model->attributes=$_POST['LoginForm'];
 			// validate user input and redirect to the previous page if valid
-			
 			if($model->validate() && $model->login()) {
-				$this->redirect(Yii::app()->request->getBaseUrl(true));
+				if (empty($_POST['LoginForm']['next'])) {
+					$this->redirect(Yii::app()->getBaseUrl(true));
+				} else {
+					$this->redirect($_POST['LoginForm']['next']);
+				}
 			}
 		}
 		// display the login form
-		$this->render('login',array('model'=>$model));
+		$this->render('login',array('model'=>$model, 'next'=>$returnUrl));
 	}
 	
 	/**

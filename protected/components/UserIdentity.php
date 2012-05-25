@@ -26,6 +26,7 @@ class UserIdentity extends CUserIdentity
 		if(empty($user)) {
 			$this->errorCode=self::ERROR_USERNAME_INVALID;
 		} else {
+			Yii::app()->user->setState('userSessionTimeout', time()+5);
 			SessionUtil::setProperty(SessionUtil::USER, $user);
 			$this->errorCode=self::ERROR_NONE;
 		}
